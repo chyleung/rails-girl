@@ -5,11 +5,10 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: postgresql
+  adapter: sqlite3
   encoding: unicode
   pool: 5
-  Username: rails4
-  password: abcdefg
+  
 
 development:
   <<: *default
