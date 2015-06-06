@@ -7,7 +7,7 @@ gem 'rails', '4.1.7'
 
 gem 'pg', '>=0.18.0.pre2014111711024', group: :production
 
-gem 'sqlite3'
+gem 'sqlite3', group: :development
 
 gem 'carrierwave'
 # Use SCSS for stylesheets
